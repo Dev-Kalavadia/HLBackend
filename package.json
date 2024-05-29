@@ -1,0 +1,21 @@
+{
+  "name": "hlbackend",
+  "version": "1.0.0",
+  "description": "Server for responding with tags after perfomring NLP on text input",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tuesdaycrowd/sentence-transformers": "^1.0.1",
+    "@xenova/transformers": "^2.17.1",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
+  }
+}
